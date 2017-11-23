@@ -1,0 +1,15 @@
+#!/bin/sh
+ifconfig lo 127.0.0.1                             #Configure the localhost
+ifconfig eth0 10.0.3.2                            #Configure the Ethernet
+ifconfig eth0 netmask 255.255.255.0           	  #Configure the Netmask
+route add default gw 10.0.3.1                     #Configure the Gateway
+export PATH=/usr/lib/jvm/java-7-sun/bin:$PATH     #Export the Java Path
+ulimit -c unlimited
+m5 resetstats
+
+# Here you can put your application
+
+# END Here you can put your application
+
+exec /bin/bash
+#/sbin/m5 exit
