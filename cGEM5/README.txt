@@ -1,1 +1,0 @@
-October 2017 GEM5 version is used.
