@@ -1,8 +1,0 @@
-17:37:56 **** Build of configuration gcc-debug for project test ****
-make MODE=debug CONFIGNAME=gcc-debug all 
-cd src && make
-make[1]: Entering directory `/home/cossim/OMNET_WORKSPACE/test/src'
-make[1]: Leaving directory `/home/cossim/OMNET_WORKSPACE/test/src'
-
-17:37:56 Build Finished (took 112ms)
-

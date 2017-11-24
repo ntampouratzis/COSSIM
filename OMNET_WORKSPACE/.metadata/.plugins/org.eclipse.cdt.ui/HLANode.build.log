@@ -1,8 +1,0 @@
-17:37:55 **** Build of configuration gcc-debug for project HLANode ****
-make MODE=debug CONFIGNAME=gcc-debug all 
-cd src && make
-make[1]: Entering directory `/home/cossim/OMNET_WORKSPACE/HLANode/src'
-make[1]: Leaving directory `/home/cossim/OMNET_WORKSPACE/HLANode/src'
-
-17:37:55 Build Finished (took 152ms)
-
