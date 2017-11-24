@@ -27,7 +27,7 @@
 
 namespace libhla {
 
-const bool
+bool
 MessageBuffer::HostIsBigEndian() {
 #ifdef HOST_IS_BIG_ENDIAN
 	return true;
@@ -36,7 +36,7 @@ MessageBuffer::HostIsBigEndian() {
 #endif
 }
 
-const bool
+bool
 MessageBuffer::HostIsLittleEndian() {
 #ifdef HOST_IS_BIG_ENDIAN
 	return false;
