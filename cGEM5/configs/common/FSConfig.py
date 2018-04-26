@@ -737,6 +737,8 @@ def makeDistRoot(testSystem,
         self.etherlink.int0 = Parent.testsys.realview.ethernet.interface
     elif hasattr(testSystem, 'tsunami'):
         self.etherlink.int0 = Parent.testsys.tsunami.ethernet.interface
+    elif hasattr(testSystem, 'pc'): # x86 Implementation #
+	self.etherlink.int0 = Parent.testsys.pc.south_bridge.ethernet.interface
     else:
         fatal("Don't know how to connect DistEtherLink to this system")
 
